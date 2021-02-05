@@ -4,7 +4,7 @@
 | #  | Matakuliah        | Jenjang | Program Studi      | Universitas            |
 |----|-------------------|---------|--------------------|------------------------|
 | 01 | [Manajemen Data](./manajemen-data)    | S2      | MKOM, MM           | [Universitas Budi Luhur](http://budiluhur.ac.id) |
-| 02 | Kecerdasan Tiruan | S1      | Teknik Informatika | Universitas Budi Luhur |
+| 02 | [Kecerdasan Tiruan](./kecerdasan-tiruan) | S1      | Teknik Informatika | [Universitas Budi Luhur](http://budiluhur.ac.id) |
 | 03 | Penambangan Data  | S1      | Sistem Informasi   | Universitas Budi Luhur |
 
 Didistribusikan oleh:
