@@ -3,7 +3,7 @@
 | #  | Materi                      | Slide | Video   | Latihan |
 |----|-----------------------------|-------|---------|---------|
 | 01 | Pengantar Kecerdasan Tiruan | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%201%20-%20Pengantar%20Kecerdasan%20Tiruan.pptx)   | Youtube | -       |
-| 02 | Intelligent Agent           | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%202%20-%20Intelligent%20Agent.pptx)   | Youtube | -       |
+| 02 | Intelligent Agent           | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%202%20-%20Intelligent%20Agent.pptx)   | [Youtube](https://youtu.be/Bsv_kjTiJgE) | -       |
 | 03 | Problem Solving (Searching) | [PPT](./kecerdasan-tiruan/Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/lbYuvRvs6TM) | -       |
 | 04 | Problem Solving (Searching) | [PPT](./kecerdasan-tiruan/Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/QXFfnWrlkC8) | -       |
 | 05 | Klasifikasi: Decision Tree | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%205%20-%20Learning%20(Decision%20Tree).pptx)   | [Youtube](https://youtu.be/KbSLvWaJFxQ) | -       |
