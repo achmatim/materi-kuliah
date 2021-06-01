@@ -14,7 +14,7 @@
 | 10 | Klasterisasi (Clustering) | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%2010%20-%20Klasterisasi.pptx)   | Youtube | -       |
 | 11 | Implementasi Klasterisasi (Clustering) | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%2010%20-%20K-Means%20Clustering.pptx)   | [Youtube](https://youtu.be/bdpSCtYyTJ4) | -       |
 | 12 | Pengantar Computer Vision | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%2012%20-%20Intro%20to%20Computer%20Vision.pptx)   | [Youtube](https://youtu.be/0ZKFcbUtjfM) | -       |
-| 13 | Pengenalan Pola pada Citra | PPT   | Youtube | -       |
+| 13 | Logika Fuzzy | PPT   | Youtube | -       |
 | 14 | Machine Learning dan Deep Learning | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%2014%20-%20Machine%20Learning%20dan%20Deep%20Learning.pptx)   | [Youtube](https://youtu.be/JotYXSNpPiM) | -       |
 | 15 | Trend Riset bidang AI | [PPT](./kecerdasan-tiruan/%5BAI%5D%20Pertemuan%2015%20-%20Review%20dan%20Tren%20Riset%20AI.pptx)   | [Youtube](https://youtu.be/lHqyjH5stJo) | -       |
 | 16 | Ujian Akhir Semester | -   | - | -       |
