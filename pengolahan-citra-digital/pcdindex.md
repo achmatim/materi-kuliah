@@ -14,11 +14,11 @@
 | 10 | Pengolahan Citra Berwarna | [PPT](./materi-ppt/PCD10%20-%20Pengolahan%20Citra%20Berwarna.pptx)   | [Youtube](https://youtu.be/-3vr8YqyWck) | -       |
 | 11 | Segmentasi Citra | [PPT](./materi-ppt/PCD11%20-%20Segmentasi%20Citra-v3.pptx)   | [Youtube](https://youtu.be/RQFB3pxBWhk) | -       |
 | 12 | 	Ekstraksi Fitur Bentuk dan Kontur | [PPT](./materi-ppt/PCD12%20-%20Ekstraksi%20Fitur%20Kontur%20dan%20Bentuk-v2.pptx)   | [Youtube](https://youtu.be/0YxaIoO-Zc0) | -       |
-| 13 | Ekstraksi Fitur Tekstur | [PPT](./materi-ppt/PCD13%20-%20Ekstraksi%20Fitur%20Tekstur.pptx)   | Youtube | -       |
-| 14 | Aplikasi Temu Kembali Citra | [PPT](./materi-ppt/PCD14%20-%20Aplikasi%20Temu%20Kembali%20Citra.pptx)   | Youtube | -       |
-| 15 | Trend Riset Image Processing | PPT   | Youtube] | -       |
+| 13 | Ekstraksi Fitur Tekstur | [PPT](./materi-ppt/PCD13%20-%20Ekstraksi%20Fitur%20Tekstur.pptx)   | [Youtube](https://youtu.be/6FjS5n9ujAg) | -       |
+| 14 | Aplikasi Temu Kembali Citra | [PPT](./materi-ppt/PCD14%20-%20Aplikasi%20Temu%20Kembali%20Citra.pptx)   | [Youtube](https://youtu.be/-WW7Ys7NvRU) | -       |
+| 15 | Trend Riset Image Processing | PPT   | Youtube | -       |
 | 16 | Ujian Akhir Semester | -   | - | -       |
 
 # Dr. Achmad Solichin, S.Kom., M.T.I.
 Universitas Budi Luhur, Jakarta
-@achmatim, http://achmatim.net
+Twitter, IG, FB @achmatim, http://achmatim.net
