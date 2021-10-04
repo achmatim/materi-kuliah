@@ -4,8 +4,8 @@
 |----|-----------------------------|-------|---------|---------|
 | 01 | Pengantar Kecerdasan Tiruan | [PPT](./%5BAI%5D%20Pertemuan%201%20-%20Pengantar%20Kecerdasan%20Tiruan.pptx)   | Youtube | -       |
 | 02 | Intelligent Agent           | [PPT](./%5BAI%5D%20Pertemuan%202%20-%20Intelligent%20Agent.pptx)   | [Youtube](https://youtu.be/Bsv_kjTiJgE) | -       |
-| 03 | Problem Solving (Searching) | [PPT](./%5BAI%5D%20Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/lbYuvRvs6TM) | -       |
-| 04 | Problem Solving (Searching) | [PPT](./%5BAI%5D%20Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/QXFfnWrlkC8) | -       |
+| 03 | Problem Solving (Searching) | [PPT](./Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/lbYuvRvs6TM) | -       |
+| 04 | Problem Solving (Searching) | [PPT](./Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/QXFfnWrlkC8) | -       |
 | 05 | Klasifikasi: Decision Tree | [PPT](./%5BAI%5D%20Pertemuan%205%20-%20Learning%20(Decision%20Tree).pptx)   | [Youtube](https://youtu.be/KbSLvWaJFxQ) | -       |
 | 06 | Klasifikasi: Naive Bayes | [PPT](./%5BAI%5D%20Pertemuan%206%20-%20Klasifikasi%20Naive%20Bayes.pptx)   | [Youtube](https://youtu.be/CJZN51tudS0) | -       |
 | 07 | Pengayaan: Tools Rapidminer | [PPT](./%5BAI%5D%20Pertemuan%207%20-%20Rapidminer.pptx)   | Youtube | -       |
