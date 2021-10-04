@@ -2,7 +2,7 @@
 
 | #  | Materi                      | Slide | Video   | Latihan |
 |----|-----------------------------|-------|---------|---------|
-| 01 | Pengantar Kecerdasan Tiruan | [PPT](./Pertemuan%201%20-%20Pengantar%20Kecerdasan%20Tiruan.pptx)   | Youtube | -       |
+| 01 | Pengantar Kecerdasan Tiruan | [PPT](./%5BAI%5D%20Pertemuan%201%20-%20Pengantar%20Kecerdasan%20Tiruan.pptx)   | Youtube | -       |
 | 02 | Intelligent Agent           | [PPT](./Pertemuan%202%20-%20Intelligent%20Agent.pptx)   | [Youtube](https://youtu.be/Bsv_kjTiJgE) | -       |
 | 03 | Problem Solving (Searching) | [PPT](./Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/lbYuvRvs6TM) | -       |
 | 04 | Problem Solving (Searching) | [PPT](./Pert3-Konsep%20Pencarian.pptx)   | [Youtube](https://youtu.be/QXFfnWrlkC8) | -       |
