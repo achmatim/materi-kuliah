@@ -2,7 +2,7 @@
 
 | #  | Materi                      | Slide | Video   | Latihan |
 |----|-----------------------------|-------|---------|---------|
-| 01 | Pengantar Pengolahan Citra | [PPT](./materi-ppt/PCD01%20-%20Pengantar%20PCD.pptx)   | Youtube | -       |
+| 01 | Pengantar Pengolahan Citra | [PPT](./materi-ppt/PCD01%20-%20Pengantar%20PCD.pptx)   | [Youtube](https://youtu.be/17N7Z1PZ8QE) | -       |
 | 02 | Konsep Dasar Pengolahan Citra Digital           | [PPT](./materi-ppt/PCD02%20-%20Konsep%20Dasar%20PCD.pptx)   | [Youtube](https://youtu.be/nN5h8uE1mck) | -       |
 | 03 | Operasi Pixel dan Histogram | [PPT](./materi-ppt/PCD03%20-%20Operasi%20Pixel%20dan%20Histogram.pptx)   | [Youtube](https://youtu.be/bf5xKkY_E9o) | -       |
 | 04 | Operasi Ketetanggaan Pixel | [PPT](./materi-ppt/PCD04%20-%20Operasi%20Ketetanggaan%20Piksel.pptx)   | [Youtube](https://youtu.be/PE5PZK2Kqh4) | -       |
