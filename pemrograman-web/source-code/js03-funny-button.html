@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Funny Button</title>
+        <script>
+            function pindah() {
+                let tombol = document.getElementById('tidakpuas');
+                var i = Math.floor(Math.random()*500)+1;
+                var j = Math.floor(Math.random()*500)+1;
+                tombol.setAttribute("style","position:absolute;left:"+i+"px;top:"+j+"px;");
+            }
+            function terimakasih() {
+                alert('Terima kasih atas partisipasinya.');
+                document.location.reload();
+            }
+            function cetak() {
+                window.print();
+            }
+        </script>
+        
+    </head>
+    <body>
+        <h1>Apakah Anda puas dengan layanan kami?</h1>
+        <br/><br/>
+        <button id="puas" onclick="terimakasih()">Sangat Puas</button>
+        <button id="tidakpuas" onmouseover="pindah()">Sangat Tidak Puas</button>
+        <button id="print" onclick="cetak()">Cetak</button>
+
+    </body>
+</html>
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Belajar CSS</title>
+        <style>
+            body {
+                font-family: Verdana, Arial, Helvetica,'Times New Roman', Times, serif;
+            }
+            header {
+                padding: 15px;
+                text-align: center;
+                background-color:maroon;
+                color:white;
+            }
+            header h1 {
+                font-family:'Times New Roman';
+            }
+            nav {
+                background-color:darkorange;
+                width:30%;
+                float:left;
+            }
+            nav ul {
+                list-style-type: none;
+            }
+            nav ul li {
+                padding:5px;
+            }
+            nav ul a {
+                display:block;
+                color:black;
+                text-decoration: none;
+            }
+            nav ul a:hover {
+                background-color:chartreuse;
+            }
+            article {
+                background-color:aliceblue;
+                /* width:70%; */
+            }
+            footer {
+                background-color:darkviolet;
+                clear:both;
+                height: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Belajar CSS</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">CSS Basics</a></li>
+                    <li><a href="#">CSS Fonts</a></li>
+                    <li><a href="#">CSS Layout</a></li>
+                </ul>
+            </nav>
+            <article>
+                <p>Ini adalah isi halaman</p>
+            </article>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2022 | Achmad Solichin</p>
+        </footer>
+    </body>
+</html>

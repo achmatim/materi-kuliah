@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Validation</title>
+        <script>
+            function validasi() {
+                var nim = document.getElementById('nim').value;
+                var nama = document.forms['frm']['nama'].value;
+                let nilai = document.forms['frm']['nilai'].value;
+
+                //validasi
+                if (nim.length != 10) {
+                    alert('NIM harus 10 digit');
+                    return false;
+                }
+                if (nilai < 0 || nilai > 100) {
+                    alert('Nilai berisi angka 0-100');
+                    document.getElementById('nilai').focus();
+                    return false;
+                }
+
+                var grade = getGrade(nilai);
+
+                var pesan = "NIM : " + nim + "\n";
+                pesan += "NAMA : " + nama + "\n";
+                pesan += "NILAI : " + nilai + "\n";
+                pesan += "GRADE : " + grade + "\n";
+                if (confirm('Apakah Anda yakin menyimpan data ini?')) {
+                    alert(pesan);
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            function getGrade(nilai) {
+                if (nilai >= 85 && nilai < 100) {
+                    return 'A';
+                } else if (nilai >= 80) {
+                    return 'A-';
+                } else if (nilai >= 75) {
+                    return 'B+';
+                } else if (nilai >= 70) {
+                    return 'B';
+                } else if (nilai >= 65) {
+                    return 'B-';
+                } else if (nilai >= 60) {
+                    return 'C';
+                } else if (nilai >= 45) {
+                    return 'D';
+                } else {
+                    return 'E';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Javascript Form Validation</h1>
+        <form action="" method="post" name="frm" onsubmit="return validasi()">
+            NIM <br/><input type="text" name="nim" id="nim" required/><br/><br/>
+            Nama <br/><input type="text" name="nama" id="nama" required/><br/><br/>
+            Nilai <br/><input type="number" name="nilai" id="nilai" required/><br/><br/>
+            <input type="submit" name="submit" value="Kirim" />
+        </form>
+    </body>
+</html>
+

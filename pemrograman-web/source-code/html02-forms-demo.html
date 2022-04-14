@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>HTML5: Forms</title>
+    </head>
+    <body>
+        <h1>Contoh Penanganan Form di HTML/HTML5</h1>
+        <form action="" method="post">
+            <p>
+                NIM : <br/>
+                <input type="text" name="nim" id="nim" required/>
+            </p>
+            <p>
+                Nama : <br/>
+                <input type="text" name="nama" id="nama" required placeholder="Isi Nama Lengkap"/>
+            </p>
+            <p>
+                Password : <br/>
+                <input type="password" name="password" id="password" required />
+            </p>
+            <p>
+                Tanggal Lahir : <br/>
+                <input type="date" name="tgllahir" id="tgllahir" required />
+            </p>
+            <p>
+                Jam Lahir : <br/>
+                <input type="time" name="jamlahir" id="jamlahir" required />
+            </p>
+            <p>
+                Tanggal dan Waktu Lahir : <br/>
+                <input type="datetime-local" name="tgljamlahir" id="tgljamlahir" required />
+            </p>
+
+            <p>
+                Umur : <br/>
+                <input type="number" name="umur" id="umur" min="0" max="100" value="20" required />
+            </p>
+
+            <p>
+                Rating Penilaian : <br/>
+                <input type="range" name="rate" id="rate" min="1" max="5" value="4" required />
+            </p>
+
+            <p>
+                Warna favorit : <br/>
+                <input type="color" name="warna" id="warna"  required />
+            </p>
+
+            <progress>
+                <span id="objprogress">76</span>
+            </progress>
+
+            <p>
+                Program Studi : <br/>
+                <select name="prodi">
+                    <option>TI</option>
+                    <option>SI</option>
+                    <option>SK</option>
+                </select>
+
+                <input type="text" list="prodi" id="ps" name="ps"/>
+                <datalist id="prodi">
+                <option value="TI">
+                <option value="SI">
+                <option value="SK">
+                <option value="MI">
+                </datalist>
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Kirim"/>
+                <input type="reset" name="reset" value="Bersihkan"/>
+            </p>
+        </form>
+    </body>
+</html>

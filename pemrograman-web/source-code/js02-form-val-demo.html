@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Belajar Javascript</title>
+        <script>
+            function validasi() {
+                var nim = document.getElementById('nim').value;
+                let nama = document.forms['frm']['nama'].value;
+                var nilai = document.forms['frm']['nilai'].value;
+
+                if (nim.length != 10) {
+                    alert("NIM harus 10 digit!");
+                    document.getElementById('nim').focus();
+                    document.getElementById('nim').style="background-color:red";
+                    return false;
+                }
+
+                if (nilai < 0 || nilai > 100) {
+                    alert('Nilai rentangnya 0-100!');
+                    return false;
+                }
+
+                let pesan = "NIM : " + nim + "\n";
+                pesan += "NAMA : " + nama + "\n";
+                pesan += "NILAI : " + nilai + "\n";
+                pesan += "KELULUSAN : " + getLulus(nilai) + "\n";
+
+                alert(pesan);
+                return true;
+            }
+            
+            function getLulus(nilai) {
+                if (nilai >= 60) {
+                    return "LULUS";
+                } else {
+                    return "GAGAL";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Form Inputan</h1>
+        <form action="" method="post" name="frm" onsubmit="return validasi()">
+            NIM <br/><input type="text" name="nim" id="nim" required/><br/><br/>
+            NAMA <br/><input type="text" name="nama" id="nama" required/><br/><br/>
+            NILAI <br/><input type="number" name="nilai" id="nilai" required/><br/><br/>
+            <input type="submit" name="kirim" id="kirim" value="Kirim"/>
+        </form>
+    </body>
+</html>

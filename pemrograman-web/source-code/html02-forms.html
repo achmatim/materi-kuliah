@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 Forms</title>
+		<meta name="description" content="HTML5 Forms">
+		<meta name="author" content="Achmad Solichin">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<h1>Belajar HTML5: Forms</h1>
+		<form action="" method="post">
+			<p>NIM *:<br/>
+			<input type="text" id="nim" name="nim" required/>
+			</p>
+			
+			<p>Nama Lengkap:<br/>
+			<input type="text" id="nama" name="nama" placeholder="Nama Lengkap"/>
+			</p>
+
+			<p>Alamat:<br/>
+			<textarea id="alamat" name="alamat" rows="3"></textarea> 
+			</p>
+
+			<p>Alamat Email:<br/>
+			<input type="email" id="email" name="email" required 
+				oninvalid="setCustomValidity('Masukkan email dengan benar!')"
+				/>
+			</p>
+
+			<p>Alamat Website:<br/>
+			<input type="url" id="url" name="url"/>
+			</p>
+
+			<p>Nomor Telepon:<br/>
+			<input type="tel" id="tel" name="tel"/>
+			</p>
+
+			<p>Tanggal Lahir:<br/>
+			<input type="date" id="date" name="date"/>
+			</p>
+
+			<p>Tanggal & Waktu :<br/>
+			<input type="datetime" id="datetime" name="datetime"/>
+			</p>
+
+			<p>Tanggal & Waktu (local):<br/>
+			<input type="datetime-local" id="datetime-local" name="datetime-local"/>
+			</p>
+
+			<p>Waktu:<br/>
+			<input type="time" id="time" name="time"/>
+			</p>
+
+			<p>Bulan / month:<br/>
+			<input type="month" id="month" name="month"/>
+			</p>
+
+			<p>Minggu / week:<br/>
+			<input type="week" id="week" name="week"/>
+			</p>
+
+			<p>Umur (number):<br/>
+			<input type="number" id="number" name="number" min="0" max="100"/>
+			</p>
+
+			<p>Suhu dalam C (range):<br/>
+			<input type="range" id="range" name="range" min="0" max="100"/>
+			</p>
+
+			<p>Warna favorit (color):<br/>
+			<input type="color" id="color" name="color"/>
+			</p>
+
+			<!--form atributes-->
+			<p>Password:<br/>
+			<input type="password" id="password" name="password" pattern="\S{6,}"/>
+			</p>
+
+			<p>Penghasilan (Rp):<br/>
+			<input type="text" id="harga" name="harga" pattern="(\d{3})([\.])(\d{2})"/>
+			</p>
+
+			<p>Email:<br/>
+			<input type="email" id="email2" name="email" autocomplete="off"/>
+			</p>
+
+			<!-- datalist -->
+			<label for="favcolor">Favorite Color</label>
+			<input type="text" list="colors" id="favcolor" name="favcolor">
+			<datalist id="colors">
+			<option value="Blue">
+			<option value="Green">
+			<option value="Pink">
+			<option value="Purple">
+			</datalist>
+			<!-- select -->
+			<select name="colorx" id="colorx">
+				<option value="Blue">Blue</option>
+				<option value="Green">Green</option>
+				<option value="Pink">Pink</option>
+				<option value="Purple">Purple</option>
+			</select>
+
+			<p>
+			<progress>
+			<span id="objprogress">76</span>
+			</progress>
+			</p>
+			<meter value="3" min="0" max="10">7 dari 10</meter>7 dari 10
+			<p>
+			<input type="submit" id="submit" name="submit" value="Submit"/>
+			</p>
+
+		</form>
+	</body>
+</html>

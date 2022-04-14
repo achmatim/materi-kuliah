@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Belajar Javascript</title>
+        <script>
+            document.write("<h1>Mari belajar Javascript</h1>");
+            function validasi() {
+                var nim = document.getElementById('nim').value;
+                let nama = document.forms['frm']['nama'].value;
+                var nilai = document.forms['frm']['nilai'].value;
+
+                if (nim.length != 10) {
+                    alert('NIM harus 10 digit!');
+                    document.getElementById('nim').focus();
+                    document.getElementById('nim').style="background-color:red";
+                    return false;
+                }
+
+                if (nilai < 0 || nilai > 100) {
+                    alert('Rentang NILAI harus antara 0-100!');
+                    return false;
+                }
+
+                var pesan = "NIM : " + nim + "\n";
+                pesan += "NAMA : " + nama + "\n";
+                pesan += "NILAI : " + nilai + "\n";
+                pesan += "KELULUSAN : " + getKelulusan(nilai) + "\n";
+
+                if (confirm('Apakah Anda yakin menyimpan data?')) {
+                    alert(pesan);
+                    return true;
+                } else {
+                    return false;
+                }
+
+                
+            }
+
+            function getKelulusan(nilai) {
+                if (nilai >= 60) {
+                    return "LULUS";
+                } else {
+                    return "TIDAK LULUS";
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <form method="post" action="" name="frm" onsubmit="return validasi()">
+            NIM: <br/><input type="text" name="nim" id="nim" required/><br/><br/>
+            NAMA: <br/><input type="text" name="nama" id="nama" required/><br/><br/>
+            NILAI: <br/><input type="number" name="nilai" id="nilai" required/><br/><br/>
+            <input type="submit" name="submit" value="Kirim"/>
+            <button onmouseover="alert('hayooo mau ngapain?')">Dekati saya</button>
+        </form>
+    </body>
+</html>
